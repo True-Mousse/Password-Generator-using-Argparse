@@ -22,7 +22,7 @@ Run w/ arguments to generate passwords.
 
 -s&nbsp; &nbsp;number of special characters in the password
 
--t&nbsp; &nbsp;total length of the password. If passed, will i generate a completely random passowords with the specificied length
+-t&nbsp; &nbsp;total length of the password. If passed, will generate a completely random passowords with the specificied length
 
 -a&nbsp; &nbsp;number of passwords to generate
 

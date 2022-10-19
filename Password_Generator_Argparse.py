@@ -14,7 +14,7 @@ parser.add_argument("-l", "--lowercase", default=0, help="Number of lowercase ch
 parser.add_argument("-u", "--uppercase", default=0, help="Number of uppercase chars in the PW", type=int)
 parser.add_argument("-s", "--special-chars", default=0, help="Number of special chars in the PW", type=int)
 
-    # add total pw length argument
+# add total pw length argument
 parser.add_argument("-t", "--total-length", type=int, 
                     help="The total password length. If passed, it will ignore -n, -l, -u and -s, " \
                     "and generate completely random passwords with the specified length")
@@ -24,7 +24,7 @@ parser.add_argument("-a", "--amount", default=1, type=int)
 parser.add_argument("-o", "--output-file")
 
 # Because Jupiter Notebook
-parser.add_argument('-foo')
+# parser.add_argument('-foo')
 
 # Parsing the command line arguments.
 args = parser.parse_args()

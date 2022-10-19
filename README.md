@@ -1,6 +1,6 @@
 # Password-Generator-using-Argparse
 
-Simple password generator using Python.
+Simple password generator.
 
 * * *
 
